@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ESF\ESF.csproj" />
+    <ProjectReference Include="..\ESF.Sample.Domain\ESF.Sample.Domain.csproj" />
+    <ProjectReference Include="..\ESF.Sample.Messages\ESF.Sample.Messages.csproj" />
+  </ItemGroup>
+
+</Project>
